@@ -1,33 +1,63 @@
+body{
+    background-color: #E3D4B4;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Londrina Sketch', cursive;
     
 }
-
-
 .menu{
     width: 100%;
     height: 100px;
     background-color:#DEBA6D;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center ;
+
 }
 .menu .logo a img{
     width: 100px;
+    margin-left: 63px;
 
 }
-.log{
+.logo{
     display: flex;
+    align-items: flex-end;
+  
 }
+
+.bienvenidos{
+    font-size: 40px;
+}
+
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 24px;
+  width: 500px;
+  border: transparent;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+}
+
+
 .enlaces ul{
     list-style: none;
     display: flex;
-    margin-left: 67em;
+    justify-content: space-around;
+
+}
+
+.enlaces li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+
 }
 .enlaces ul li{
     margin-right: 10px;
 }
 .enlaces ul li a{
+    display: block;
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -36,14 +66,27 @@ h1,h2,h3,h4,h5,h6{
 .enlaces ul li a:hover{
     border-bottom: 1px solid #AB8F54;
     color: rgb(231, 224, 216);
-
 }
+
+.menu-vertical{
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    list-style: none;
+    width: 90px;
+    
+    background-color: #eabe5f;
+}
+.menu-vertical li:hover{
+    background-color:#AB8F54;
+}
+
 .iconos i,
 .iconos svg{
     margin-right: 5px;
     background-color: antiquewhite;
     padding: 5px;
-    margin-right: 5em;
+    margin-left: 15em;
 }
 
 .iconos i:hover,
@@ -58,14 +101,14 @@ h1,h2,h3,h4,h5,h6{
 .principal{
     width: 100%;
     height: 500px;
-    background-image: url(../imagenes/Grupo-Éxito-1280x720-1.jpg);
+    margin-top: 10px;
+    background-image: url(img/istockphoto-504452860-1024x1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y:center;
     display: flex;
     justify-content:flex-start;
    
-    
 }
 
 .principal .con-texto{
@@ -75,7 +118,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .principal .con-texto h1{
     font-size: 90px;
-    color: rgb(254, 254, 254);
+    color: rgb(21, 21, 21);
    
    
 }
@@ -247,4 +290,31 @@ h1,h2,h3,h4,h5,h6{
     color:rgb(179, 67, 67);
     background-color: rgb(229, 225, 233);
     border:2px solid black;
+    }
+
+.pie{
+    height: 80px;
+    width: 100%;
+    background-color: #AB8F54;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.whasaapp,
+.redes{
+    font-size:40px;
+}
+.contactanos{
+    font-size: 20px;
+    align-items: center;
+}
+
+.prendas,
+.siguenos{
+    font-size:30px;
+}
+    
+
+
+    
     
